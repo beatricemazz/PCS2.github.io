@@ -1,1 +1,8 @@
-ciao= 'hello'
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    result=[[i,t,o]for i in range(x+1) for t in range(y+1) for o in range(z+1) if n!= i+t+o ]
+    print(result)
+    
