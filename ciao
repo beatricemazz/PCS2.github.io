@@ -6,3 +6,8 @@ if __name__ == '__main__':
     result=[[i,t,o]for i in range(x+1) for t in range(y+1) for o in range(z+1) if n!= i+t+o ]
     print(result)
     
+if __name__ == '__main__':
+    n = int(input())
+    integer_list = map(int, input().split())
+    t=tuple(integer_list)
+    print(hash(t))
